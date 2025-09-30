@@ -12,8 +12,9 @@ export const SlideNavigation = ({
   return (
     <>
       {/* Bottom Navigation */}
-      <div className="fixed bottom-0 left-0 right-0 bg-slate-900/95 backdrop-blur-sm border-t border-slate-700 p-3 md:p-4">
-        <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      <div className="fixed bottom-0 left-0 right-0 flex items-center justify-center py-6 bg-gradient-to-t from-slate-900 via-slate-900/95 to-transparent pointer-events-none">
+  <div className="flex items-center gap-4 bg-slate-800/90 backdrop-blur-sm px-6 py-3 rounded-full border border-slate-700 pointer-events-auto">
+  
           <button
             onClick={onPrev}
             disabled={currentSlide === 0}

@@ -5,7 +5,7 @@ export const slides = [
     type: 'landing',
     title: 'India\'s Sovereign Flood Intelligence Capability',
     subtitle: 'National Disaster Management Authority',
-    date: 'September 29, 2025',
+    date: 'October 1, 2025',
     presenter: 'Aditya Tiwari, Culturiq Research Labs'
   },
   
